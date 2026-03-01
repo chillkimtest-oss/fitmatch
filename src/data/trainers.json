@@ -1,0 +1,47 @@
+[
+  {
+    "id": "trainer-001",
+    "name": "Alex Chen",
+    "goal": "weight_loss",
+    "style": "high_intensity",
+    "feedback": "motivational",
+    "structure": "strict",
+    "checkins": "weekly"
+  },
+  {
+    "id": "trainer-002",
+    "name": "Jordan Lee",
+    "goal": "muscle_gain",
+    "style": "strength",
+    "feedback": "technical",
+    "structure": "strict",
+    "checkins": "weekly"
+  },
+  {
+    "id": "trainer-003",
+    "name": "Sam Rivera",
+    "goal": "endurance",
+    "style": "cardio",
+    "feedback": "detailed",
+    "structure": "flexible",
+    "checkins": "biweekly"
+  },
+  {
+    "id": "trainer-004",
+    "name": "Taylor Morgan",
+    "goal": "flexibility",
+    "style": "yoga",
+    "feedback": "brief",
+    "structure": "flexible",
+    "checkins": "monthly"
+  },
+  {
+    "id": "trainer-005",
+    "name": "Casey Park",
+    "goal": "general_fitness",
+    "style": "low_impact",
+    "feedback": "detailed",
+    "structure": "mixed",
+    "checkins": "daily"
+  }
+]
