@@ -12,6 +12,9 @@ export interface TrainerProfile {
   feedback: FeedbackStyle;
   structure: Structure;
   checkins: CheckinFrequency;
+  area: string;
+  specialty: string;
+  website: string;
 }
 
 export interface UserPreferences {

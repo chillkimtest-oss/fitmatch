@@ -6,7 +6,10 @@
     "style": "high_intensity",
     "feedback": "motivational",
     "structure": "strict",
-    "checkins": "weekly"
+    "checkins": "weekly",
+    "area": "Downtown Toronto",
+    "specialty": "HIIT & Fat Loss",
+    "website": "https://example.com/alex-chen"
   },
   {
     "id": "trainer-002",
@@ -15,7 +18,10 @@
     "style": "strength",
     "feedback": "technical",
     "structure": "strict",
-    "checkins": "weekly"
+    "checkins": "weekly",
+    "area": "North York",
+    "specialty": "Powerlifting & Hypertrophy",
+    "website": "https://example.com/jordan-lee"
   },
   {
     "id": "trainer-003",
@@ -24,7 +30,10 @@
     "style": "cardio",
     "feedback": "detailed",
     "structure": "flexible",
-    "checkins": "biweekly"
+    "checkins": "biweekly",
+    "area": "Scarborough",
+    "specialty": "Marathon & Triathlon",
+    "website": "https://example.com/sam-rivera"
   },
   {
     "id": "trainer-004",
@@ -33,7 +42,10 @@
     "style": "yoga",
     "feedback": "brief",
     "structure": "flexible",
-    "checkins": "monthly"
+    "checkins": "monthly",
+    "area": "Etobicoke",
+    "specialty": "Yoga & Mobility",
+    "website": "https://example.com/taylor-morgan"
   },
   {
     "id": "trainer-005",
@@ -42,6 +54,9 @@
     "style": "low_impact",
     "feedback": "detailed",
     "structure": "mixed",
-    "checkins": "daily"
+    "checkins": "daily",
+    "area": "Midtown Toronto",
+    "specialty": "Functional Fitness",
+    "website": "https://example.com/casey-park"
   }
 ]

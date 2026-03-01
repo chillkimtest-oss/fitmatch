@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import type { Goal, Style, FeedbackStyle, Structure, CheckinFrequency } from '@/src/lib/score';
+import type { Goal, Style, FeedbackStyle, Structure, CheckinFrequency, UserPreferences } from '@/src/lib/score';
+import Results from './Results';
 
 export type Experience = 'beginner' | 'intermediate' | 'advanced';
 
@@ -112,36 +113,14 @@ export default function Quiz() {
   }
 
   if (isDone) {
-    return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-white px-6 py-12">
-        <div className="w-full max-w-sm">
-          <div className="mb-8 text-center">
-            <span className="text-5xl">🎉</span>
-            <h1 className="mt-4 text-2xl font-bold text-zinc-900">All set!</h1>
-            <p className="mt-2 text-zinc-500">Here are your preferences</p>
-          </div>
-          <ul className="space-y-3">
-            {QUESTIONS.map((q) => {
-              const key = q.id as keyof QuizAnswers;
-              const val = answers[key];
-              const opt = q.options.find((o) => o.value === val);
-              return (
-                <li key={q.id} className="flex items-center justify-between rounded-xl border border-zinc-100 bg-zinc-50 px-4 py-3">
-                  <span className="text-sm text-zinc-500">{q.question}</span>
-                  <span className="ml-4 text-sm font-semibold text-zinc-900">{opt?.label ?? '—'}</span>
-                </li>
-              );
-            })}
-          </ul>
-          <button
-            onClick={handleRestart}
-            className="mt-8 w-full rounded-2xl bg-zinc-900 py-4 text-base font-semibold text-white transition-opacity active:opacity-70"
-          >
-            Start over
-          </button>
-        </div>
-      </div>
-    );
+    const preferences: UserPreferences = {
+      goal: answers.goal!,
+      style: answers.style!,
+      feedback: answers.feedback!,
+      structure: answers.structure!,
+      checkins: answers.checkins!,
+    };
+    return <Results preferences={preferences} onRestart={handleRestart} />;
   }
 
   const selectedValue = answers[current.id as keyof QuizAnswers];
