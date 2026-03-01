@@ -9,7 +9,8 @@
     "checkins": "weekly",
     "area": "Downtown Toronto",
     "specialty": "HIIT & Fat Loss",
-    "website": "https://example.com/alex-chen"
+    "website": "https://example.com/alex-chen",
+    "email": "alex.chen@fitmatch.ca"
   },
   {
     "id": "trainer-002",
@@ -21,7 +22,8 @@
     "checkins": "weekly",
     "area": "North York",
     "specialty": "Powerlifting & Hypertrophy",
-    "website": "https://example.com/jordan-lee"
+    "website": "https://example.com/jordan-lee",
+    "email": "jordan.lee@fitmatch.ca"
   },
   {
     "id": "trainer-003",
@@ -33,7 +35,8 @@
     "checkins": "biweekly",
     "area": "Scarborough",
     "specialty": "Marathon & Triathlon",
-    "website": "https://example.com/sam-rivera"
+    "website": "https://example.com/sam-rivera",
+    "email": "sam.rivera@fitmatch.ca"
   },
   {
     "id": "trainer-004",
@@ -45,7 +48,8 @@
     "checkins": "monthly",
     "area": "Etobicoke",
     "specialty": "Yoga & Mobility",
-    "website": "https://example.com/taylor-morgan"
+    "website": "https://example.com/taylor-morgan",
+    "email": "taylor.morgan@fitmatch.ca"
   },
   {
     "id": "trainer-005",
@@ -57,6 +61,7 @@
     "checkins": "daily",
     "area": "Midtown Toronto",
     "specialty": "Functional Fitness",
-    "website": "https://example.com/casey-park"
+    "website": "https://example.com/casey-park",
+    "email": "casey.park@fitmatch.ca"
   }
 ]
